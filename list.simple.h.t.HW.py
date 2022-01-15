@@ -1,6 +1,6 @@
 clients_fin = []
 
-def output(argument):                                                        ### function that prints elements of a list
+def showClients(argument):                                                   ### Function that prints elements of a list
     for i in argument:
         print(i)
 
@@ -16,4 +16,4 @@ for names in range(seats):
     else:
         print("Incorrect priority level was introduced?")
     
-output(clients_fin)                                                          ### Call of the function output()
+showClients(clients_fin)                                                     ### Call of the function output()
